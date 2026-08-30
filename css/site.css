@@ -18,7 +18,8 @@ img{max-width:100%;display:block}
 /* header */
 header{position:sticky;top:0;z-index:60;background:rgba(11,11,13,.86);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 header.over{position:absolute;background:linear-gradient(180deg,rgba(0,0,0,.6),transparent);border:0;backdrop-filter:none}
-.bar{display:flex;align-items:center;justify-content:space-between;height:74px}
+.bar{display:flex;align-items:center;gap:26px;height:74px}
+.brand{margin-right:auto}
 .brand img{height:36px}
 nav.links{display:flex;gap:28px}
 nav.links a{font-size:.9rem;color:var(--text);transition:.2s}
@@ -40,7 +41,7 @@ nav.links a:hover,nav.links a.active{color:var(--wht)}
 .phero p{max-width:56ch;margin-top:16px;color:var(--muted);font-size:1.05rem;position:relative}
 /* home hero */
 .hero{position:relative;height:100vh;min-height:640px;display:flex;align-items:flex-end;overflow:hidden}
-.hero-bg{position:absolute;inset:0;background:url('assets/hero.jpg') center/cover}
+.hero-bg{position:absolute;inset:0;background:url('../assets/hero.jpg') center/cover}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,8,10,.4) 0%,rgba(8,8,10,.05) 38%,rgba(8,8,10,.85) 100%)}
 .hero .wrap{position:relative;z-index:3;width:100%}
 .hero-c{max-width:680px;padding-bottom:58px}
