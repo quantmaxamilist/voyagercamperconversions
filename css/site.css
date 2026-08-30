@@ -53,6 +53,8 @@ nav.links a:hover,nav.links a.active{color:var(--wht)}
 .hero-stats span{font-size:.78rem;color:#b7b7bf}
 @media(max-width:640px){
 .hero{height:auto;min-height:auto;display:block;padding:120px 0 48px}
+.hero-bg{background-size:contain;background-position:center 30%;background-color:var(--bg);background-repeat:no-repeat}
+.hero::after{background:linear-gradient(180deg,rgba(8,8,10,.5) 0%,rgba(8,8,10,.25) 40%,rgba(8,8,10,.85) 100%)}
 .hero-c{padding-bottom:0;max-width:none}
 .hero h1{font-size:2.5rem}
 .hero p.lead{font-size:1.02rem;margin:16px 0 24px}
