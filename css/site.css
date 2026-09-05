@@ -53,7 +53,6 @@ nav.links a:hover,nav.links a.active{color:var(--wht)}
 .hero-stats span{font-size:.78rem;color:#b7b7bf}
 @media(max-width:640px){
 .hero{height:auto;min-height:86vh;display:flex;align-items:flex-end;padding:120px 0 44px}
-.hero-bg{background-image:url('../assets/hero-mobile.jpg');background-position:center}
 .hero-c{padding-bottom:0;max-width:none}
 .hero h1{font-size:2.5rem}
 .hero p.lead{font-size:1.02rem;margin:16px 0 24px}
